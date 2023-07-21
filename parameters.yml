@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Template per i parametri della stack CloudFormation.
+
+Parameters:
+  
+  AMI:
+    Type: String
+    Description: "AMI"
+    Default: "ami-0c94855ba95c71c99"  
+
+  Chiave:
+    Type: String
+    Description: "Chiave ssh"
+    Default: "DevOpsDemo.pem"
